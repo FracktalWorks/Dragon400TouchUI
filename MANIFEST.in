@@ -1,0 +1,6 @@
+include README.md
+recursive-include octoprint_Dragon400TouchUI/templates *
+recursive-include octoprint_Dragon400TouchUI/config *
+recursive-include octoprint_Dragon400TouchUI/firmware *
+include versioneer.py
+include octoprint_Dragon400TouchUI/_version.py
