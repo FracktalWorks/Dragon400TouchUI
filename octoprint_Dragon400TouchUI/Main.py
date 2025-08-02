@@ -154,15 +154,15 @@ filament_settings = {
     }
 }
 
-calibrationPosition = {'X1': 110, 'Y1': 67, #110, 18
-                       'X2': 410, 'Y2': 67, #510, 18
-                       'X3': 260, 'Y3': 380, #310, 308
-                       'X4': 260, 'Y4': 20
+calibrationPosition = {'X1': 25, 'Y1': 75, #110, 18
+                       'X2': 375, 'Y2': 75, #510, 18
+                       'X3': 200, 'Y3': 280, #310, 308
+                       'X4': 200, 'Y4': 20
                        }
 
-tool0PurgePosition = {'X': 15, 'Y': -43}
+tool0PurgePosition = {'X': 0, 'Y': -20}
 
-ptfeTubeLength = 1600
+ptfeTubeLength = 1100
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
